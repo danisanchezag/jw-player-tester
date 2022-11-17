@@ -1,0 +1,135 @@
+
+
+::ng-deep div .jwplayer {
+  min-height: 68vh;
+}
+
+::ng-deep div .jw-icon-inline > svg {
+  width: 25px !important;
+  height: 25px !important;
+}
+
+::ng-deep .jw-controlbar .jw-button-image {
+  max-height: 23px !important;
+}
+
+//rewind
+::ng-deep div.jw-reset.jw-button-container > div:nth-child(14) {
+  order: -10;
+}
+
+//play/pause
+::ng-deep div.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-playback {
+  order: -10;
+}
+
+//stop
+::ng-deep div.jw-reset.jw-button-container > div:nth-child(13) {
+  order: -8;
+}
+
+//forward
+::ng-deep div.jw-reset.jw-button-container > div:nth-child(12) {
+  order: -7;
+}
+::ng-deep div.jw-reset.jw-button-container > div:nth-child(15) {
+  order: -11;
+}
+
+//volume
+::ng-deep div.jw-icon.jw-icon-tooltip.jw-icon-volume.jw-button-color.jw-reset.jw-off {
+  order: -6;
+}
+
+::ng-deep div.jw-icon.jw-icon-tooltip.jw-icon-volume.jw-button-color.jw-reset {
+  order: -6;
+}
+
+//bookmark
+::ng-deep div.jw-reset.jw-button-container > div:nth-child(15) > div.jw-icon.jw-button-image.jw-button-color.jw-reset {
+  max-height: 19px !important;
+}
+
+::ng-deep .jw-controlbar .jw-icon.jw-button-color {
+  color: white !important;
+}
+
+
+
+// //text duration one
+// ::ng-deep div.jw-icon.jw-icon-inline.jw-text.jw-reset.jw-text-elapsed {
+//   order: -5;
+//   font-family: $font-family-base !important;
+//   font-size: 1em !important;
+//   width: auto !important;
+// }
+
+// //text duration two
+// ::ng-deep div.jw-icon.jw-icon-inline.jw-text.jw-reset.jw-text-duration {
+//   order: -4;
+//   font-family: $font-family-base !important;
+//   font-size: 1em !important;
+//   width: auto !important;
+// }
+
+// //settings
+// ::ng-deep div.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-settings.jw-settings-submenu-button {
+//   order: 1;
+// }
+
+// //fullscreen
+// ::ng-deep div.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-fullscreen {
+//   order: 2;
+// }
+
+// ::ng-deep div.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-rewind,
+// ::ng-deep div.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-cast,
+// ::ng-deep .jw-svg-icon-settings path {
+//   display: none !important;
+// }
+
+// ::ng-deep span.jw-text.jw-reset {
+//   background: $neutral-black;
+//   max-width: 110px;
+//   color: $white;
+//   white-space: nowrap;
+//   overflow: hidden;
+//   text-overflow: ellipsis;
+// }
+
+// ::ng-deep .jw-time-tip.jw-reset {
+//   color: $neutral-black;
+// }
+
+// ::ng-deep .jw-slider-time .jw-cue {
+//   width: 8px !important;
+//   background-color: $light-blue !important;
+
+//   &:hover {
+//     height: 10px !important;
+//   }
+// }
+
+// ::ng-deep .jw-slider-horizontal .jw-slider-container {
+//   height: 8px;
+// }
+
+// // disable right-click context-menu jwplayer
+// ::ng-deep .jw-rightclick .jw-reset {
+//   display: none !important;
+// }
+
+// ::ng-deep .jw-preview {
+//   width: auto !important;
+//   height: 50% !important;
+//   margin: auto !important;
+//   background-color: unset !important;
+// }
+
+// ::ng-deep .jw-error.jw-reset {
+//   @include sizeBox;
+// }
+
+// ::ng-deep .jw-aspect.jw-reset {
+//   padding-top: 0 !important;
+// }
